@@ -37,3 +37,9 @@ php artisan migrate
 
 # run seeders
 php artisan db:seed 
+
+# run app on the PHP development server
+php artisan serve
+
+# open project in your browser
+http://localhost:8000
