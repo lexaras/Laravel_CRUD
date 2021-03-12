@@ -1,18 +1,34 @@
-### TODO
+# PHP LARAVEL project
 
-    ---     Tagu nebesufixinsiu
-    ---     List(padaryti galimybe pasirinkti tik yes/no value)
-    ---     Registered users <-----
-    ---     Laravel jobs neveikia(queue)
-    ---     Seeders
-    ---     PHP testai
-    ---
+PHP Laravel CRUD application to manage campings. Only authorized users can access admin area and use CRUD operations. 
 
+## How to install
 
-Useriu kurimas:
-php artisan tinker
-factory(App\User::class, 10)->count(20)->create();
+```bash
 
-sukurti DB- camping?
+# clone repository
+https://github.com/lexaras/Laravel_CRUD.git
+
+# change directory
+cd Laravel_CRUD
+
+# install all dependencies
+composer update
+
+npm install
+
+npm run dev
+
+# copy .env.example file
+cp .env.expample .env
+
+# add your database to .env
+
+# generate app key
+php artisan key:generate
+
+# run migrations
 php artisan migrate
-php artisan db:seed
+
+# run seeders
+php artisan db:seed 
