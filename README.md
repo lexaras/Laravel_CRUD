@@ -4,6 +4,7 @@ PHP Laravel CRUD application to manage campings. Only authorized users can acces
 
 
 AMMPS and composer are required to run this project.
+In resources folder exists file "naujas.xlsx" to test import accommodations functionality.
 
 ## How to install
 
@@ -43,3 +44,4 @@ php artisan serve
 
 # open project in your browser
 http://localhost:8000
+
