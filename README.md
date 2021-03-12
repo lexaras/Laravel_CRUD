@@ -2,7 +2,11 @@
 
 PHP Laravel CRUD application to manage campings. Only authorized users can access admin area and use CRUD operations. 
 
+AMMPS and composer are required to run this project.
+
 ## How to install
+
+
 
 ```bash
 
