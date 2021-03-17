@@ -1,0 +1,9 @@
+TODO list:
+
+Fix responsive design/styles
+Fix header list
+Implement laravel jobs
+Fix routes(double click home->redirects to wrong page(adds extra camping sign))
+Let user to add/remove/update TAGS
+Make Select option to add TAGS to camping
+Refactor controllers code(complicated)
