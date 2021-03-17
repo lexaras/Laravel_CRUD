@@ -30,15 +30,15 @@
           @endauth
           <a  href="{{ route('login') }}">{{ __('Login') }}</a>
           <a href="{{ route('register') }}">{{ __('Register') }}</a>
-           <a class="dropdown-item" href="{{ route('logout') }}"
-                 onclick="event.preventDefault();
+          @auth
+          <a  href="{{ route('logout') }}"onclick="event.preventDefault();
                 document.getElementById('logout-form').submit();">
                 {{ __('Logout') }}
-         </a>
-
-        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-         @csrf
-        </form>
+           </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+             @csrf
+            </form>
+            @endauth
         </div>
       </div>
       

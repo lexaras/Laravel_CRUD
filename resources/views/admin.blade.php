@@ -17,6 +17,7 @@
     <div class="d-inline-block bg-warning">
     <a class="btn btn-success" href="javascript:void(0)" id="createNewCamping"> Create New Camping</a>
     </div>
+    <a class="active" href="{{'campings/index-paging'}}">Home</a>
     <div class="float-right"><h4>Admin dashoboard</h4></div>
     
     <div class="container mt-5 text-center">

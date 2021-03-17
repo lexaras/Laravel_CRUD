@@ -21,15 +21,9 @@ Route::resource('admin', App\Http\Controllers\CampingController::class);
 });
 Route::get('campings/index-paging', [CampingController::class, 'indexpaging']);
 
-
-
 Route::get('import-export', [ImportExportController::class, 'importExport']);
 Route::post('import-file', [ImportExportController::class, 'importFile'])->name('import-file');
 Route::get('export-file', [ImportExportController::class, 'exportFile'])->name('export-file');
-
-
-
-
 
 Auth::routes();
 

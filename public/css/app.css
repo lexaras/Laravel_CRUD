@@ -11352,6 +11352,8 @@ body footer {
   justify-content: space-around;
   padding-top: 107px;
   padding-bottom: 110px;
+  width: 70%;
+  margin: auto;
 }
 
 body footer .adress h5 {
